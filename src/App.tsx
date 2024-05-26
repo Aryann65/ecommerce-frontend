@@ -4,7 +4,7 @@ import Loader from "./components/loader";
 import Header from "./components/header";
 import { Toaster } from "react-hot-toast";
 import { useDispatch, useSelector} from "react-redux";
-import { onAuthStateChanged, signOut } from "firebase/auth";
+import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase";
 import { userExist, userNotExist } from "./redux/reducer/userReducer";
 import { getUser } from "./redux/api/userAPI";
